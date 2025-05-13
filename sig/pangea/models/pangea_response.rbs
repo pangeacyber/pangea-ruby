@@ -1,0 +1,12 @@
+module Pangea
+  module Models
+    class PangeaResponse[Result]
+      attr_accessor request_id: String
+      attr_accessor request_time: String
+      attr_accessor response_time: String
+      attr_accessor status: String
+      attr_accessor summary: String
+      attr_accessor result: Result
+    end
+  end
+end

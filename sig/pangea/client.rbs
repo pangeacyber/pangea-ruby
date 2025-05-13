@@ -1,0 +1,12 @@
+module Pangea
+  class Client < Pangea::Internal::Transport::BaseClient
+    attr_reader api_token: String
+
+    private def auth_headers: -> ::Hash[String, String]
+
+    def initialize: (
+      ?api_token: String?,
+      ?base_url: String?
+    ) -> void
+  end
+end

@@ -1,0 +1,12 @@
+module Pangea
+  module Services
+    module AiGuard
+      def initialize: (?api_token: String, ?base_url: String, ?domain: String) -> void
+
+      def guard_text: (
+        ?text: String,
+        ?request_options: Pangea::request_opts
+      ) -> Pangea::Models::PangeaResponse[Pangea::Models::AiGuard::TextGuardResult]
+    end
+  end
+end

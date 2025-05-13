@@ -1,0 +1,12 @@
+module Pangea
+  module Internal
+    module Type
+      class BaseModel
+        extend Pangea::Internal::Type::Converter
+
+        type known_field =
+          { mode: (:coerce | :dump)?, required: bool, nilable: bool }
+      end
+    end
+  end
+end

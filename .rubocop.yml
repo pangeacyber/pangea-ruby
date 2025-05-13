@@ -1,0 +1,118 @@
+---
+AllCops:
+  Exclude:
+    - "bin/*"
+  NewCops: enable
+  SuggestExtensions: false
+  TargetRubyVersion: 3.2.8
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Layout/LineLength:
+  AllowedPatterns:
+    - "^\\s*#.*$"
+    - ^require(_relative)?
+    - "Pangea::Internal::Type::BaseModel$"
+    - "^\\s*[A-Z0-9_]+ = :"
+    - "Pangea::(Models|Services|Test)::"
+  Max: 110
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+  Exclude:
+    - "**/*.rbi"
+
+Lint/MissingSuper:
+  Exclude:
+    - "**/*.rbi"
+
+Lint/UnusedMethodArgument:
+  AutoCorrect: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  AllowedPatterns:
+    - assert_pattern
+  Exclude:
+    - "**/*.rbi"
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Naming/BlockForwarding:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Style/AccessModifierDeclarations:
+  Enabled: false
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/ArgumentsForwarding:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - "test/**/*"
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Exclude:
+    - "**/*.rbi"
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+  Exclude:
+    - "**/*.rbi"
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/MultipleComparison:
+  Enabled: false
+
+Style/MutableConstant:
+  Exclude:
+    - "**/*.rbi"
+
+Style/NumberedParameters:
+  Enabled: false
+
+Style/NumberedParametersLimit:
+  Max: 2
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/RedundantParentheses:
+  Exclude:
+    - "**/*.rbi"
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/SymbolArray:
+  EnforcedStyle: brackets

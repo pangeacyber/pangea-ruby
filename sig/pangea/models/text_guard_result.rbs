@@ -1,0 +1,19 @@
+module Pangea
+  module Models
+    module AiGuard
+      type text_guard_result = {
+        prompt_text: String?,
+        blocked: Pangea::Internal::Type::Boolean?,
+        recipe: String?,
+        fpe_context: String?,
+      }
+
+      class TextGuardResult < Pangea::Internal::Type::BaseModel
+        attr_accessor prompt_text: String?
+        attr_accessor blocked: Pangea::Internal::Type::Boolean?
+        attr_accessor recipe: String?
+        attr_accessor fpe_context: String?
+      end
+    end
+  end
+end
