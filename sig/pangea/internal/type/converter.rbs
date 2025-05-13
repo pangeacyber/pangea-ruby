@@ -1,0 +1,9 @@
+module Pangea
+  module Internal
+    module Type
+      module Converter
+        type input = Pangea::Internal::Type::Converter | Class
+      end
+    end
+  end
+end

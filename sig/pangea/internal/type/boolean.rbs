@@ -1,0 +1,10 @@
+module Pangea
+  module Internal
+    module Type
+      # @api private
+      class Boolean
+        extend Pangea::Internal::Type::Converter
+      end
+    end
+  end
+end

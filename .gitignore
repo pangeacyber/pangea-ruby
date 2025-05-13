@@ -1,0 +1,14 @@
+.bundle
+.ignore
+.prism.log
+.ruby-lsp/
+.vscode/
+.yardoc/
+
+bin/tapioca
+Brewfile.lock.json
+doc/
+sorbet/tapioca/*
+vendor
+
+*.gem

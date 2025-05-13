@@ -1,0 +1,6 @@
+dependencies:
+  - cgi
+  - date
+  - json
+  - net/http
+  - time

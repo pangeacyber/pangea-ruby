@@ -1,0 +1,14 @@
+module Pangea
+  module Internal
+    module Transport
+      class BaseClient
+        def initialize: (
+            base_url: String,
+            ?headers: ::Hash[String, (String
+            | Integer
+            | ::Array[(String | Integer)?])?],
+          ) -> void
+      end
+    end
+  end
+end
