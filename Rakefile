@@ -42,7 +42,7 @@ multitask(:test) do
     .map { "require_relative(#{_1.dump});" }
     .join
 
-  ruby(*%w[-w -e], rb, verbose: false) { fail unless _1 }
+  ruby(*%w[-w -e], rb, verbose: false) { raise unless _1 }
 end
 
 xargs = %w[xargs --no-run-if-empty --null --max-procs=0 --max-args=300 --]
@@ -70,6 +70,11 @@ end
 desc("Preview docs; use `PORT=<PORT>` to change the port")
 multitask(:"docs:preview") do
   sh(*%w[yard server --reload --quiet --bind [::] --port], ENV.fetch("PORT", "8808"))
+end
+
+desc("Release ruby gem")
+multitask(release: [:"build:gem"]) do
+  sh(*%w[gem push], *FileList["*.gem"])
 end
 
 multitask(:default) do
