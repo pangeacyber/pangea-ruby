@@ -159,13 +159,13 @@ GEM
       tilt (~> 2.0)
       yard (~> 0.9, >= 0.9.24)
       yard-solargraph (~> 0.1)
-    sorbet (0.5.12087)
-      sorbet-static (= 0.5.12087)
-    sorbet-runtime (0.5.12087)
-    sorbet-static (0.5.12087-x86_64-linux)
-    sorbet-static-and-runtime (0.5.12087)
-      sorbet (= 0.5.12087)
-      sorbet-runtime (= 0.5.12087)
+    sorbet (0.5.12115)
+      sorbet-static (= 0.5.12115)
+    sorbet-runtime (0.5.12115)
+    sorbet-static (0.5.12115-x86_64-linux)
+    sorbet-static-and-runtime (0.5.12115)
+      sorbet (= 0.5.12115)
+      sorbet-runtime (= 0.5.12115)
     spoom (1.6.1)
       erubi (>= 1.10.0)
       prism (>= 0.28.0)
@@ -244,7 +244,7 @@ DEPENDENCIES
   rubocop (~> 1.75, >= 1.75.5)
   ruby-lsp (~> 0.23.19)
   solargraph (~> 0.54.3)
-  sorbet (~> 0.5.12087)
+  sorbet (~> 0.5.12099)
   steep (~> 1.10)
   syntax_tree (~> 6.2)
   syntax_tree-rbs (~> 1.0)
@@ -253,4 +253,4 @@ DEPENDENCIES
   yard (~> 0.9.37)
 
 BUNDLED WITH
-   2.3.3
+   2.4.19
