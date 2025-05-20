@@ -8,7 +8,7 @@ group :development do
   gem "rake", "~> 13.2", ">= 13.2.1"
   gem "rbs", "~> 3.9", ">= 3.9.3"
   gem "rubocop", "~> 1.75", ">= 1.75.5"
-  gem "solargraph", "~> 0.54.3"
+  gem "solargraph", "~> 0.54.5"
   gem "sorbet", "~> 0.5.12099"
   gem "steep", "~> 1.10"
   gem "syntax_tree", "~> 6.2"
