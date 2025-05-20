@@ -15,7 +15,7 @@ group :development do
   gem "syntax_tree-rbs", "~> 1.0"
   gem "tapioca", "~> 0.16.11"
   gem "debug", "~> 1.10"
-  gem "ruby-lsp", "~> 0.23.19"
+  gem "ruby-lsp", "~> 0.23.20"
 end
 
 group :development, :test do
