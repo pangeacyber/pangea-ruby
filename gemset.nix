@@ -1,16 +1,16 @@
 {
   activesupport = {
-    dependencies = ["base64" "benchmark" "bigdecimal" "concurrent-ruby" "connection_pool" "drb" "i18n" "logger" "minitest" "securerandom" "tzinfo"];
+    dependencies = ["base64" "benchmark" "bigdecimal" "concurrent-ruby" "connection_pool" "drb" "i18n" "logger" "minitest" "securerandom" "tzinfo" "uri"];
     groups = ["default" "development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1xa7hr4gp2p86ly6n1j2skyx8pfg6yi621kmnh7zhxr9m7wcnaw4";
+      sha256 = "0pm40y64wfc50a9sj87kxvil2102rmpdcbv82zf0r40vlgdwsrc5";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "7.2.2.1";
+    version = "8.0.2";
   };
   ast = {
     groups = ["default" "development"];
@@ -325,12 +325,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1hfcz73wszgqprg2pr83qjbyfb0k93frbdvyhgmw0ryyl9cgc44s";
+      sha256 = "0l0av82l1i5703fd5qnxr263zw21xmbpx737av3r9pjn0w0cw3xk";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.11.3";
+    version = "2.12.0";
   };
   kramdown = {
     dependencies = ["rexml"];
@@ -935,17 +935,17 @@
     version = "0.5.12115";
   };
   spoom = {
-    dependencies = ["erubi" "prism" "rbi" "sorbet-static-and-runtime" "thor"];
+    dependencies = ["erubi" "prism" "rbi" "rexml" "sorbet-static-and-runtime" "thor"];
     groups = ["default" "development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0z7s91svgv6cflm4zb13iz1grd5q4vmhi4cvr98jlan4mvmzv1a2";
+      sha256 = "0lyi479sdk883azs21fd0lpfj054s3y86x9mfp5y78j3lq0sa18d";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.6.1";
+    version = "1.6.3";
   };
   steep = {
     dependencies = ["activesupport" "concurrent-ruby" "csv" "fileutils" "json" "language_server-protocol" "listen" "logger" "mutex_m" "parser" "rainbow" "rbs" "securerandom" "strscan" "terminal-table" "uri"];
