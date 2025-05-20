@@ -108,7 +108,7 @@ GEM
       prism (~> 1.0)
       rbs (>= 3.4.4)
       sorbet-runtime (>= 0.5.9204)
-    rbs (3.9.3)
+    rbs (3.9.4)
       logger
     rdoc (6.13.1)
       psych (>= 4.0.0)
@@ -239,7 +239,7 @@ DEPENDENCIES
   minitest-rg (~> 5.3)
   pangea-sdk!
   rake (~> 13.2, >= 13.2.1)
-  rbs (~> 3.9, >= 3.9.3)
+  rbs (~> 3.9, >= 3.9.4)
   redcarpet (~> 3.6, >= 3.6.1)
   rubocop (~> 1.75, >= 1.75.5)
   ruby-lsp (~> 0.23.19)

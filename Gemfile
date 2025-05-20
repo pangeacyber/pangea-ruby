@@ -6,7 +6,7 @@ gemspec
 
 group :development do
   gem "rake", "~> 13.2", ">= 13.2.1"
-  gem "rbs", "~> 3.9", ">= 3.9.3"
+  gem "rbs", "~> 3.9", ">= 3.9.4"
   gem "rubocop", "~> 1.75", ">= 1.75.5"
   gem "solargraph", "~> 0.54.3"
   gem "sorbet", "~> 0.5.12099"

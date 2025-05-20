@@ -724,12 +724,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1wk35zy5xwszfn5mp1kbda2ypmsazia69vpbjm68338h6nh628nf";
+      sha256 = "1mx533jn2nv29xc5faw9g5xj9qbdaiwl9wv2byv98bgw6gqwhhlf";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.9.3";
+    version = "3.9.4";
   };
   rdoc = {
     dependencies = ["psych"];
