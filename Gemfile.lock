@@ -7,7 +7,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.2.2.1)
+    activesupport (8.0.2)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -19,6 +19,7 @@ GEM
       minitest (>= 5.1)
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
+      uri (>= 0.13.1)
     ast (2.4.3)
     async (2.24.0)
       console (~> 1.29)
@@ -59,7 +60,7 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jaro_winkler (1.6.1)
-    json (2.11.3)
+    json (2.12.0)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -166,10 +167,11 @@ GEM
     sorbet-static-and-runtime (0.5.12115)
       sorbet (= 0.5.12115)
       sorbet-runtime (= 0.5.12115)
-    spoom (1.6.1)
+    spoom (1.6.3)
       erubi (>= 1.10.0)
       prism (>= 0.28.0)
-      rbi (>= 0.2.3)
+      rbi (>= 0.3.3)
+      rexml (>= 3.2.6)
       sorbet-static-and-runtime (>= 0.5.10187)
       thor (>= 0.19.2)
     steep (1.10.0)
