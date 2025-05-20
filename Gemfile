@@ -5,17 +5,17 @@ source "https://rubygems.org"
 gemspec
 
 group :development do
+  gem "debug", "~> 1.10"
   gem "rake", "~> 13.2", ">= 13.2.1"
   gem "rbs", "~> 3.9", ">= 3.9.4"
   gem "rubocop", "~> 1.75", ">= 1.75.5"
+  gem "ruby-lsp", "~> 0.23.20"
   gem "solargraph", "~> 0.54.5"
-  gem "sorbet", "~> 0.5.12099"
+  gem "sorbet", "0.5.12115"
   gem "steep", "~> 1.10"
   gem "syntax_tree", "~> 6.2"
   gem "syntax_tree-rbs", "~> 1.0"
   gem "tapioca", "~> 0.16.11"
-  gem "debug", "~> 1.10"
-  gem "ruby-lsp", "~> 0.23.20"
 end
 
 group :development, :test do
