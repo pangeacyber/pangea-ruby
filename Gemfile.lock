@@ -241,7 +241,7 @@ DEPENDENCIES
   rake (~> 13.2, >= 13.2.1)
   rbs (~> 3.9, >= 3.9.4)
   redcarpet (~> 3.6, >= 3.6.1)
-  rubocop (~> 1.75, >= 1.75.5)
+  rubocop (= 1.75.6)
   ruby-lsp (~> 0.23.20)
   solargraph (~> 0.54.5)
   sorbet (= 0.5.12115)
