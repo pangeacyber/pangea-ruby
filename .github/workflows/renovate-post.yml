@@ -1,0 +1,39 @@
+name: Renovate post update
+
+on:
+  push:
+    paths:
+      - Gemfile
+      - Gemfile.lock
+    branches:
+      - "renovate/*"
+
+jobs:
+  update-lockfiles:
+    name: Update lockfiles
+    runs-on: ubuntu-24.04
+    if: github.actor == 'renovate[bot]'
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: cachix/cachix-action@0fc020193b5a1fa3ac4575aa3a7d3aa6a35435ad # v16
+        with:
+          name: pangea-ruby
+          authToken: ${{ secrets.CACHIX_AUTH_TOKEN }}
+
+      - run: nix flake update
+      - run: nix develop -c bundle-lock
+      - run: nix develop -c bundix
+
+      - uses: EndBug/add-and-commit@v9.1.4
+        with:
+          author_name: "renovate[bot]"
+          author_email: "29139614+renovate[bot]@users.noreply.github.com"
+          message: "chore(deps): update lockfiles"
