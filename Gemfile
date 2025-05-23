@@ -11,7 +11,7 @@ group :development do
   gem "rubocop", "1.75.6"
   gem "ruby-lsp", "~> 0.23.20"
   gem "solargraph", "~> 0.54.5"
-  gem "sorbet", "0.5.12115"
+  gem "sorbet", "0.5.12117"
   gem "steep", "~> 1.10"
   gem "syntax_tree", "~> 6.2"
   gem "syntax_tree-rbs", "~> 1.0"
