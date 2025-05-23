@@ -32,7 +32,7 @@ jobs:
       - run: nix develop -c bundle-lock
       - run: nix develop -c bundix
 
-      - uses: EndBug/add-and-commit@v9.1.4
+      - uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9.1.4
         with:
           author_name: "renovate[bot]"
           author_email: "29139614+renovate[bot]@users.noreply.github.com"
