@@ -325,12 +325,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0l0av82l1i5703fd5qnxr263zw21xmbpx737av3r9pjn0w0cw3xk";
+      sha256 = "1x5b8ipv6g0z44wgc45039k04smsyf95h2m5m67mqq35sa5a955s";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.12.0";
+    version = "2.12.2";
   };
   kramdown = {
     dependencies = ["rexml"];
@@ -812,12 +812,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0qp25m10kxdm41rndf76f4x2g2nqrvf0l31gkfcqjvz7n8hncv0w";
+      sha256 = "1scbammv27cxmbqbs03akgig6jf0mswapy470q12cgr64nxnwmi3";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.75.6";
+    version = "1.75.7";
   };
   rubocop-ast = {
     dependencies = ["parser" "prism"];
