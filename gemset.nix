@@ -176,12 +176,24 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0h5kbj9hvg5hb3c7l425zpds0vb42phvln2knab8nmazg2zp5m79";
+      sha256 = "0wrkl7yiix268s2md1h6wh91311w95ikd8fy8m5gx589npyxc00b";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.2.1";
+    version = "2.2.3";
+  };
+  erb = {
+    groups = ["default" "development"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "08rc8pzri3g7c85c76x84j05hkk12jvalrm2m3n97k1n7f03j13n";
+      target = "ruby";
+      type = "gem";
+    };
+    targets = [];
+    version = "5.0.1";
   };
   erubi = {
     groups = ["default" "development"];
@@ -288,12 +300,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1p79w29pkmql5mi9d2wqpjfn1cqy8fdxkidk9m4bia5106zzbqg4";
+      sha256 = "0pgnn8y1a8hbynrhaxwbh7r986z02z948zzn1s10ayah0ddc59a0";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.10.0";
+    version = "1.10.1";
   };
   irb = {
     dependencies = ["pp" "rdoc" "reline"];
@@ -732,17 +744,17 @@
     version = "3.9.4";
   };
   rdoc = {
-    dependencies = ["psych"];
+    dependencies = ["erb" "psych"];
     groups = ["default" "development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1xvjskc5xp5x4lgrkxqrn7n4rjzgbbjl9yx3ny74xjckjk4xm832";
+      sha256 = "1nyp5vc9nm46nc3aq58f2lackgbip4ynxmznzi1qg6qjsxcdwiic";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "6.13.1";
+    version = "6.14.0";
   };
   redcarpet = {
     groups = ["development" "docs"];
