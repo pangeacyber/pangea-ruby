@@ -54,36 +54,36 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "01qml0yilb9basf7is2614skjp8384h2pycfx86cr8023arfj98g";
+      sha256 = "0yx9yn47a8lkfcjmigk79fykxvr80r4m1i35q82sxzynpbm7lcr7";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.2.0";
+    version = "0.3.0";
   };
   benchmark = {
     groups = ["default" "development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0jl71qcgamm96dzyqk695j24qszhcc7liw74qc83fpjljp2gh4hg";
+      sha256 = "1kicilpma5l0lwayqjb5577bm0hbjndj2gh150xz09xsgc1l1vyl";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.4.0";
+    version = "0.4.1";
   };
   bigdecimal = {
     groups = ["default" "development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1k6qzammv9r6b2cw3siasaik18i6wjc5m0gw5nfdc6jj64h79z1g";
+      sha256 = "1qq2v3ly3g8my73d86idzy9k5bam7jc3cjxqx67vlskchwg66s0z";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.1.9";
+    version = "3.2.1";
   };
   concurrent-ruby = {
     groups = ["default" "development"];
@@ -127,12 +127,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1kfqg0m6vqs6c67296f10cr07im5mffj90k2b5dsm51liidcsvp9";
+      sha256 = "0gz7r2kazwwwyrwi95hbnhy54kwkfac5swh2gy5p5vw36fn38lbf";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.3.4";
+    version = "3.3.5";
   };
   date = {
     groups = ["default" "development"];
@@ -685,12 +685,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "17850wcwkgi30p7yqh60960ypn7yibacjjha0av78zaxwvd3ijs6";
+      sha256 = "14s4jdcs1a4saam9qmzbsa2bsh85rj9zfxny5z315x3gg0nhkxcn";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "13.2.1";
+    version = "13.3.0";
   };
   rb-fsevent = {
     groups = ["default" "development"];
