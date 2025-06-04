@@ -242,7 +242,7 @@ DEPENDENCIES
   minitest-proveit (~> 1.0)
   minitest-rg (~> 5.3)
   pangea-sdk!
-  rake (~> 13.3)
+  rake (= 13.3.0)
   rbs (~> 3.9, >= 3.9.4)
   redcarpet (~> 3.6, >= 3.6.1)
   rubocop (= 1.75.8)
