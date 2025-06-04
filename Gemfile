@@ -7,15 +7,14 @@ gemspec
 group :development do
   gem "debug", "~> 1.10"
   gem "rake", "13.3.0"
-  gem "rbs", "~> 3.9", ">= 3.9.4"
   gem "rubocop", "1.75.8"
   gem "ruby-lsp", "~> 0.23.23"
-  gem "solargraph", "~> 0.54.5"
+  gem "solargraph", "0.55.0"
   gem "sorbet", "0.5.12142"
   gem "steep", "~> 1.10"
   gem "syntax_tree", "~> 6.2"
   gem "syntax_tree-rbs", "~> 1.0"
-  gem "tapioca", "~> 0.16.11"
+  gem "tapioca", "0.16.11"
 end
 
 group :development, :test do

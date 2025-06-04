@@ -887,12 +887,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "19f2nqw6hirj6idp2n63j6dhcr0zffjlkqv8m430al5gd27m1rak";
+      sha256 = "1my05kv666z7hn8yzhhhjy86wdc63praka6zwqhi1yyqi3nn6qyy";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.54.5";
+    version = "0.55.0";
   };
   sorbet = {
     dependencies = ["sorbet-static"];
