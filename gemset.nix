@@ -551,12 +551,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "05xqijcf80sza5pnlp1c8whdaay8x5dc13214ngh790zrizgp8q9";
+      sha256 = "1h6gazp5837xbz1aqvq9x0a5ffpw32nhvknn931a4074k6i04wvd";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.6.1";
+    version = "0.6.2";
   };
   pangea-sdk = {
     dependencies = ["connection_pool"];
@@ -887,12 +887,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0n83m2q6vhy0mqym8dj7zx8vxqwck2mp24yszv2a059ff5fhqz44";
+      sha256 = "19rhrs75pq8gsisgjsl8szdrvdrc8c5d555d0vv286ii0k054a6a";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.55.1";
+    version = "0.55.2";
   };
   sorbet = {
     dependencies = ["sorbet-static"];
