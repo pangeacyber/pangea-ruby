@@ -882,17 +882,17 @@
     version = "0.4.1";
   };
   solargraph = {
-    dependencies = ["backport" "benchmark" "diff-lcs" "jaro_winkler" "kramdown" "kramdown-parser-gfm" "logger" "observer" "ostruct" "parser" "rbs" "reverse_markdown" "rubocop" "thor" "tilt" "yard" "yard-solargraph"];
+    dependencies = ["backport" "benchmark" "diff-lcs" "jaro_winkler" "kramdown" "kramdown-parser-gfm" "logger" "observer" "ostruct" "parser" "prism" "rbs" "reverse_markdown" "rubocop" "thor" "tilt" "yard" "yard-solargraph"];
     groups = ["development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "17pa7nnd51kz1176c89mnzv84jynx8lfs3f3cx3abc2hzmrvq123";
+      sha256 = "1jf8d19j32f3h99acmx9h4g5qaykxzb25fqp028g2bvqvl8k7r2r";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.55.4";
+    version = "0.56.0";
   };
   sorbet = {
     dependencies = ["sorbet-static"];
