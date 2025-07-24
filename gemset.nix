@@ -1002,12 +1002,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0g9l9acknjr2yz8ynfxbcrwx2ws3wh96pfzdb31g66k08v1022m5";
+      sha256 = "0ggi6p7xxjsj42q8pp0yz6z7dbwlbr6fjbs4qnafr667jab5mqjn";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "6.2.0";
+    version = "6.3.0";
   };
   syntax_tree-rbs = {
     dependencies = ["prettier_print" "rbs" "syntax_tree"];
