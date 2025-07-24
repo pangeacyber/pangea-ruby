@@ -233,26 +233,26 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  async (~> 2.26)
-  debug (~> 1.11)
-  minitest (~> 5.25, >= 5.25.5)
-  minitest-focus (~> 1.4)
-  minitest-hooks (~> 1.5, >= 1.5.2)
-  minitest-proveit (~> 1.0)
-  minitest-rg (~> 5.3)
+  async (= 2.26.0)
+  debug (= 1.11.0)
+  minitest (= 5.25.5)
+  minitest-focus (= 1.4.0)
+  minitest-hooks (= 1.5.2)
+  minitest-proveit (= 1.0.0)
+  minitest-rg (= 5.3.0)
   pangea-sdk!
   rake (= 13.3.0)
-  redcarpet (~> 3.6, >= 3.6.1)
+  redcarpet (= 3.6.1)
   rubocop (= 1.78.0)
-  ruby-lsp (~> 0.26.0)
+  ruby-lsp (= 0.26.1)
   solargraph (= 0.56.0)
   sorbet (= 0.5.12354)
-  steep (~> 1.10)
-  syntax_tree (~> 6.3)
-  syntax_tree-rbs (~> 1.0)
+  steep (= 1.10.0)
+  syntax_tree (= 6.3.0)
+  syntax_tree-rbs (= 1.0.0)
   tapioca (= 0.16.11)
-  webrick (~> 1.9, >= 1.9.1)
-  yard (~> 0.9.37)
+  webrick (= 1.9.1)
+  yard (= 0.9.37)
 
 BUNDLED WITH
    2.4.19
