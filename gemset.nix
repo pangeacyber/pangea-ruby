@@ -30,12 +30,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1y6xv2wsdskfqaf4qwd1sx7j77iwi4i0sidw666hkbhn12dvvvkp";
+      sha256 = "0lf4n6n3l71ap93nbxpcac7db9nlqfd5xczf047hjv18dwzsjsb3";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.26.0";
+    version = "2.27.0";
   };
   backport = {
     groups = ["default" "development"];
@@ -115,12 +115,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1nmi55shibycdmd6p77n8bykcz8vj9gnvrwwr10g3kg3hiikv3ia";
+      sha256 = "114k77hdymqyh6dfwfkpsrdkxm8llhnxfhjyjas6jhdjwc81kk51";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.32.0";
+    version = "1.33.0";
   };
   csv = {
     groups = ["default" "development"];
@@ -337,12 +337,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1z0gmgndcqrcp5hgmgfrf8qiq9c6g4ccfs98qrgsr2d78jxz8z4f";
+      sha256 = "0s5vklcy2fgdxa9c6da34jbfrqq7xs6mryjglqqb5iilshcg3q82";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.13.1";
+    version = "2.13.2";
   };
   kramdown = {
     dependencies = ["rexml"];
