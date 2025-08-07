@@ -900,24 +900,24 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "159az6k9kbxvg627zrhv8lp9mfgwr3zm0iwsiv2x78gaj0xp4gbv";
+      sha256 = "1g0rxz4kn59qp8iycxrc0imgkm5lal6vblgcnhn0j8fi4fqrm4m0";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.5.12366";
+    version = "0.5.12371";
   };
   sorbet-runtime = {
     groups = ["default" "development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1zkshc1aic4mjy29a6dkv6v9gqzrvkfph8fyj74x07jqnfsk5r37";
+      sha256 = "0kp6h6wcvahqw1yx6bg5yddl22g2g85vk8w4lcdiijslgqk3pqak";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.5.12366";
+    version = "0.5.12371";
   };
   sorbet-static = {
     groups = ["default" "development"];
@@ -925,13 +925,13 @@
     source = null;
     targets = [{
       remotes = ["https://rubygems.org"];
-      sha256 = "1d5n2asaajg71mjliwfwlpwzkx5wcwp2q1yjj8sv4sv5l0gxfhg5";
+      sha256 = "0nxrlbbvg820a14gsmnpq8555zyc3b6ln2v13i6ipmcqk49y8zmd";
       target = "x86_64-linux";
       targetCPU = "x86_64";
       targetOS = "linux";
       type = "gem";
     }];
-    version = "0.5.12366";
+    version = "0.5.12371";
   };
   sorbet-static-and-runtime = {
     dependencies = ["sorbet" "sorbet-runtime"];
@@ -939,12 +939,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "01i5pbkl3kxzxb27v1hrpn4pp56jsnq746ifrhca9m6gsmk2wb7s";
+      sha256 = "1jwfsic5qvpwgl58n5f6xnb2vpnmzfg4y7rk9a4lsxd63sbnmz5c";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.5.12366";
+    version = "0.5.12371";
   };
   spoom = {
     dependencies = ["erubi" "prism" "rbi" "rexml" "sorbet-static-and-runtime" "thor"];
