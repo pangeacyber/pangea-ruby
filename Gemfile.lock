@@ -21,7 +21,7 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
     ast (2.4.3)
-    async (2.27.0)
+    async (2.27.2)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.11)
@@ -233,7 +233,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  async (= 2.27.0)
+  async (= 2.27.2)
   debug (= 1.11.0)
   minitest (= 5.25.5)
   minitest-focus (= 1.4.0)
