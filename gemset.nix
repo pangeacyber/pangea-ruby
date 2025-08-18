@@ -5,12 +5,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0pm40y64wfc50a9sj87kxvil2102rmpdcbv82zf0r40vlgdwsrc5";
+      sha256 = "1ik1sm5sizrsnr3di0klh7rvsy9r9mmd805fv5srk66as5psf184";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "8.0.2";
+    version = "8.0.2.1";
   };
   ast = {
     groups = ["default" "development"];
@@ -424,12 +424,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0ap1l7ziydzr3kc5aix9rawj6ss2x1j0zq20fjxv7hjx4c4apjkm";
+      sha256 = "04xkaxbj0mk8mll0fmnlnwqab20k3yqy141blj0pi0lns5r337qk";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.12.2";
+    version = "0.13.0";
   };
   minitest = {
     groups = ["development" "test"];
@@ -773,12 +773,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0qccah61pjvzyyg6mrp27w27dlv6vxlbznzipxjcswl7x3fhsvyb";
+      sha256 = "167zy35y4sasqx7wdpv757vigxl1znphfa0xmd9xxn7zhla9qpjy";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.10.0";
+    version = "2.11.2";
   };
   reline = {
     dependencies = ["io-console"];
@@ -1077,12 +1077,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "109dh1xmsmvkg1pf3306svigh3m8kdmjqlznyk4bi2r4nws7hm6j";
+      sha256 = "1lpf8ximxrx19zmlh9jjchfbzl3zhca0isqhs2295mlccd68697h";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.15.2";
+    version = "0.17.0";
   };
   tzinfo = {
     dependencies = ["concurrent-ruby"];
@@ -1103,12 +1103,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1has87asspm6m9wgqas8ghhhwyf2i1yqrqgrkv47xw7jq3qjmbwc";
+      sha256 = "0knx0bgwwpwa7wcmknqp2i019jq6b46wxfppvhxfxrsyhlbnhmmz";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.1.4";
+    version = "3.1.5";
   };
   unicode-emoji = {
     groups = ["default" "development"];
