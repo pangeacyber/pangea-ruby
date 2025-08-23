@@ -30,12 +30,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "05ng9iy6ns5jjc6zd4mk02k3ky1043b0gj8d7pw0x49dqp5zr3m6";
+      sha256 = "0g1bmhjhlhna2fc5cjamg3pn5y482yybh5n6gv5cw8w59lwgabia";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.27.2";
+    version = "2.27.4";
   };
   backport = {
     groups = ["default" "development"];
