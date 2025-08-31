@@ -21,12 +21,12 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
     ast (2.4.3)
-    async (2.27.2)
+    async (2.28.0)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.11)
       metrics (~> 0.12)
-      traces (~> 0.15)
+      traces (~> 0.18)
     backport (1.2.0)
     base64 (0.3.0)
     benchmark (0.4.1)
@@ -72,7 +72,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
-    metrics (0.13.0)
+    metrics (0.14.0)
     minitest (5.25.5)
     minitest-focus (1.4.0)
       minitest (>= 4, < 6)
@@ -214,7 +214,7 @@ GEM
       unicode-display_width (>= 1.1.1, < 4)
     thor (1.4.0)
     tilt (2.6.1)
-    traces (0.17.0)
+    traces (0.18.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.1.5)
@@ -233,7 +233,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  async (= 2.27.2)
+  async (= 2.28.0)
   debug (= 1.11.0)
   minitest (= 5.25.5)
   minitest-focus (= 1.4.0)
