@@ -78,12 +78,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1p2szbr4jdvmwaaj2kxlbv1rp0m6ycbgfyp0kjkkkswmniv5y21r";
+      sha256 = "06sfv80bmxfczkqi3pb3yc9zicqhf94adh5f8hpkn3bsqqd1vlgz";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.2.2";
+    version = "3.2.3";
   };
   concurrent-ruby = {
     groups = ["default" "development"];
@@ -102,12 +102,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0nrhsk7b3sjqbyl1cah6ibf1kvi3v93a7wf4637d355hp614mmyg";
+      sha256 = "02p7l47gvchbvnbag6kb4x2hg8n28r25ybslyvrr2q214wir5qg9";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.5.3";
+    version = "2.5.4";
   };
   console = {
     dependencies = ["fiber-annotation" "fiber-local" "json"];
@@ -424,12 +424,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1sgbixbl0pvzfvshvjvih6ir94408bk246qmdafjs2iycdj51z58";
+      sha256 = "0wlh0g4xmfqa41dsh4m3514q3jcvy6jx97mwn6ayj62ir6xdbpk1";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.14.0";
+    version = "0.15.0";
   };
   minitest = {
     groups = ["development" "test"];
@@ -636,12 +636,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0gkhpdjib9zi9i27vd9djrxiwjia03cijmd6q8yj2q1ix403w3nw";
+      sha256 = "0rj2af0l7s0vimhd3w47d5jcsffzdpmnmp9sx47lhpxg62hszsja";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.4.0";
+    version = "1.5.0";
   };
   psych = {
     dependencies = ["date" "stringio"];
@@ -732,16 +732,16 @@
   };
   rbs = {
     dependencies = ["logger"];
-    groups = ["development"];
+    groups = ["default" "development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1mx533jn2nv29xc5faw9g5xj9qbdaiwl9wv2byv98bgw6gqwhhlf";
+      sha256 = "1c0r26dhdr4jiklc0g7wjmr5q56dp7hwcfa8z75khkp8mrhazfpa";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.9.4";
+    version = "3.9.5";
   };
   rdoc = {
     dependencies = ["erb" "psych"];
@@ -811,12 +811,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1jmbf6lf7pcyacpb939xjjpn1f84c3nw83dy3p1lwjx0l2ljfif7";
+      sha256 = "0hninnbvqd2pn40h863lbrn9p11gvdxp928izkag5ysx8b1s5q0r";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.4.1";
+    version = "3.4.4";
   };
   rubocop = {
     dependencies = ["json" "language_server-protocol" "lint_roller" "parallel" "parser" "rainbow" "regexp_parser" "rubocop-ast" "ruby-progressbar" "unicode-display_width"];
@@ -1077,12 +1077,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0kn4qn9wzypw5693kza96s52avlzw0ax7x5vq4s4cvm97zx9hd3y";
+      sha256 = "05722prvh34n96irnxa762wz0yj2nyrz70ab2zby3b6snjf69wc0";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.18.1";
+    version = "0.18.2";
   };
   tzinfo = {
     dependencies = ["concurrent-ruby"];
@@ -1103,24 +1103,24 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0knx0bgwwpwa7wcmknqp2i019jq6b46wxfppvhxfxrsyhlbnhmmz";
+      sha256 = "0hiwhnqpq271xqari6mg996fgjps42sffm9cpk6ljn8sd2srdp8c";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.1.5";
+    version = "3.2.0";
   };
   unicode-emoji = {
     groups = ["default" "development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0ajk6rngypm3chvl6r0vwv36q1931fjqaqhjjya81rakygvlwb1c";
+      sha256 = "1995yfjbvjlwrslq48gzzc9j0blkdzlbda9h90pjbm0yvzax55s9";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "4.0.4";
+    version = "4.1.0";
   };
   uri = {
     groups = ["default" "development"];
