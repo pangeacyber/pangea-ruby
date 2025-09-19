@@ -21,7 +21,7 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
     ast (2.4.3)
-    async (2.29.1)
+    async (2.32.0)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.11)
@@ -61,7 +61,7 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jaro_winkler (1.6.1)
-    json (2.13.2)
+    json (2.14.1)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -233,7 +233,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  async (= 2.29.1)
+  async (= 2.32.0)
   debug (= 1.11.0)
   minitest (= 5.25.5)
   minitest-focus (= 1.4.0)
