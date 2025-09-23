@@ -11,7 +11,7 @@
     ruby-nix.url = "github:inscapist/ruby-nix";
 
     bundix = {
-      url = "github:inscapist/bundix/main";
+      url = "github:kandelakitina/bundix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -30,7 +30,7 @@
         overlays = [nixpkgs-ruby.overlays.default];
       };
       rubyNix = ruby-nix.lib pkgs;
-      ruby = pkgs."ruby-3.2.8";
+      ruby = pkgs."ruby-3.2.9";
 
       gemset =
         if builtins.pathExists ./gemset.nix
