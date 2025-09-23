@@ -9,7 +9,7 @@ group :development do
   gem "rake", "13.3.0"
   gem "rubocop", "1.80.2"
   gem "ruby-lsp", "0.26.1"
-  gem "solargraph", "0.56.0"
+  gem "solargraph", "0.57.0"
   gem "sorbet", "0.6.12556"
   gem "steep", "1.10.0"
   gem "syntax_tree", "6.3.0"
