@@ -5,12 +5,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1ik1sm5sizrsnr3di0klh7rvsy9r9mmd805fv5srk66as5psf184";
+      sha256 = "08vqq5y6vniz30p747xa8yfqb3cz8scqd8r65wij62v661gcw4d7";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "8.0.2.1";
+    version = "8.0.3";
   };
   ast = {
     groups = ["default" "development"];
