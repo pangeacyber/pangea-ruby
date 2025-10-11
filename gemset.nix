@@ -30,12 +30,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "11s733zhjvriqbzca85ry29j33p3y7n24xjwwvjyga4rba5brzvr";
+      sha256 = "1hg1fx60kfjfyj4qxrl6hqldhwnkz3wk1i5sqnv5ph3m8myj1av5";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.32.0";
+    version = "2.34.0";
   };
   backport = {
     groups = ["default" "development"];
@@ -337,12 +337,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0p5dafxjp6kqkf3yx737gz9lwpaljlkc1raynkvcn6yql68d895w";
+      sha256 = "128bp3mihh175l9wm7hgg9sdisp6hd3kf36fw01iksqnq7kv5hdi";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "2.15.0";
+    version = "2.15.1";
   };
   kramdown = {
     dependencies = ["rexml"];
