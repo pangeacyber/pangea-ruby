@@ -115,12 +115,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "00cr0jvpgjlrnln1vfjq2lb9lxc25n7gv4g8278ih24cxq39jxv3";
+      sha256 = "0fkya5w1ah9bkk4rgh5rrblqqqjkifmhxnbx504m8aq63fd33646";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.34.0";
+    version = "1.34.1";
   };
   csv = {
     groups = ["default" "development"];
@@ -188,12 +188,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0x9pwh2zl0cjrmhddfml8jb2ghnlsl5vffshg9bagyhx3dxfpdm3";
+      sha256 = "1v7ll6sif577gbnd5c92cixr687jpvfig3lrmvxrw7am4iwnxhmj";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "5.0.3";
+    version = "5.1.1";
   };
   erubi = {
     groups = ["default" "development"];
