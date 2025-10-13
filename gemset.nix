@@ -436,12 +436,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0mn7q9yzrwinvfvkyjiz548a4rmcwbmz2fn9nyzh4j1snin6q6rr";
+      sha256 = "0c1c9lr7h0bnf48xj5sylg2cs2awrb0hfxwimiz4yfl6kz87m0gm";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "5.25.5";
+    version = "5.26.0";
   };
   minitest-focus = {
     dependencies = ["minitest"];
