@@ -14,7 +14,7 @@ group :development do
   gem "steep", "1.10.0"
   gem "syntax_tree", "6.3.0"
   gem "syntax_tree-rbs", "1.0.0"
-  gem "tapioca", "0.16.11"
+  gem "tapioca", "0.17.8"
 end
 
 group :development, :test do
