@@ -7,7 +7,7 @@ gemspec
 group :development do
   gem "debug", "1.11.0"
   gem "rake", "13.3.0"
-  gem "rubocop", "1.81.1"
+  gem "rubocop", "1.81.6"
   gem "ruby-lsp", "0.26.1"
   gem "solargraph", "0.57.0"
   gem "sorbet", "0.6.12656"
