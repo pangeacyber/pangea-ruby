@@ -10,7 +10,7 @@ group :development do
   gem "rubocop", "1.81.1"
   gem "ruby-lsp", "0.26.1"
   gem "solargraph", "0.57.0"
-  gem "sorbet", "0.6.12649"
+  gem "sorbet", "0.6.12656"
   gem "steep", "1.10.0"
   gem "syntax_tree", "6.3.0"
   gem "syntax_tree-rbs", "1.0.0"
