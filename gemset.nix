@@ -1,16 +1,8 @@
 {
   activesupport = {
-    dependencies = ["base64" "benchmark" "bigdecimal" "concurrent-ruby" "connection_pool" "drb" "i18n" "logger" "minitest" "securerandom" "tzinfo" "uri"];
-    groups = ["default" "development"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "08vqq5y6vniz30p747xa8yfqb3cz8scqd8r65wij62v661gcw4d7";
-      target = "ruby";
-      type = "gem";
-    };
+    dependencies = ["base64" "bigdecimal" "concurrent-ruby" "connection_pool" "drb" "i18n" "json" "logger" "minitest" "securerandom" "tzinfo" "uri"];
+    source = null;
     targets = [];
-    version = "8.0.3";
   };
   ast = {
     groups = ["default" "development"];
@@ -62,16 +54,8 @@
     version = "0.3.0";
   };
   benchmark = {
-    groups = ["default" "development"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "1kicilpma5l0lwayqjb5577bm0hbjndj2gh150xz09xsgc1l1vyl";
-      target = "ruby";
-      type = "gem";
-    };
+    source = null;
     targets = [];
-    version = "0.4.1";
   };
   bigdecimal = {
     groups = ["default" "development"];
@@ -111,16 +95,8 @@
   };
   console = {
     dependencies = ["fiber-annotation" "fiber-local" "json"];
-    groups = ["default" "development" "test"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "0fkya5w1ah9bkk4rgh5rrblqqqjkifmhxnbx504m8aq63fd33646";
-      target = "ruby";
-      type = "gem";
-    };
+    source = null;
     targets = [];
-    version = "1.34.1";
   };
   csv = {
     groups = ["default" "development"];
@@ -333,16 +309,8 @@
     version = "1.6.1";
   };
   json = {
-    groups = ["default" "development" "test"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "128bp3mihh175l9wm7hgg9sdisp6hd3kf36fw01iksqnq7kv5hdi";
-      target = "ruby";
-      type = "gem";
-    };
+    source = null;
     targets = [];
-    version = "2.15.1";
   };
   kramdown = {
     dependencies = ["rexml"];
@@ -583,16 +551,8 @@
   };
   parser = {
     dependencies = ["ast" "racc"];
-    groups = ["default" "development"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "1wl7frfk68q6gsf6q6j32jl5m3yc0b9x8ycxz3hy79miaj9r5mll";
-      target = "ruby";
-      type = "gem";
-    };
+    source = null;
     targets = [];
-    version = "3.3.9.0";
   };
   pp = {
     dependencies = ["prettyprint"];
