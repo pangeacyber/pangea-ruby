@@ -846,16 +846,8 @@
   };
   ruby-lsp = {
     dependencies = ["language_server-protocol" "prism" "rbs"];
-    groups = ["development"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "050qg73g4qs3xza441nafy7610daa3k4ra0pbi3sdlawy9fwfh6i";
-      target = "ruby";
-      type = "gem";
-    };
+    source = null;
     targets = [];
-    version = "0.26.1";
   };
   ruby-progressbar = {
     groups = ["default" "development"];
