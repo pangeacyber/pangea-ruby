@@ -681,16 +681,8 @@
     version = "3.1.1";
   };
   rake = {
-    groups = ["development"];
-    platforms = [];
-    source = {
-      remotes = ["https://rubygems.org"];
-      sha256 = "14s4jdcs1a4saam9qmzbsa2bsh85rj9zfxny5z315x3gg0nhkxcn";
-      target = "ruby";
-      type = "gem";
-    };
+    source = null;
     targets = [];
-    version = "13.3.0";
   };
   rb-fsevent = {
     groups = ["default" "development"];
