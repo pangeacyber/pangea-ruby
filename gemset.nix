@@ -850,12 +850,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "050qg73g4qs3xza441nafy7610daa3k4ra0pbi3sdlawy9fwfh6i";
+      sha256 = "10b93m34plp7rssbvdcci2k1zqlranmrpgmygsch6c6fh1n8pll0";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.26.1";
+    version = "0.26.3";
   };
   ruby-progressbar = {
     groups = ["default" "development"];
