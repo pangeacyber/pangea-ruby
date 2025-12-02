@@ -28,6 +28,6 @@ end
 
 group :development, :docs do
   gem "redcarpet", "3.6.1"
-  gem "webrick", "1.9.1"
+  gem "webrick", "1.9.2"
   gem "yard", "0.9.37"
 end
