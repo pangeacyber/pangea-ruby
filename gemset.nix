@@ -1163,12 +1163,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "14k9lb9a60r9z2zcqg08by9iljrrgjxdkbd91gw17rkqkqwi1sd6";
+      sha256 = "03q1hf12csqy5q2inafzi44179zaq9n5yrb0k2j2llqhzcmbh7vj";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.9.37";
+    version = "0.9.38";
   };
   yard-activesupport-concern = {
     dependencies = ["yard"];
