@@ -18,7 +18,7 @@ group :development do
 end
 
 group :development, :test do
-  gem "async", "2.34.0"
+  gem "async", "2.35.0"
   gem "minitest", "5.26.2"
   gem "minitest-focus", "1.4.0"
   gem "minitest-hooks", "1.5.2"
