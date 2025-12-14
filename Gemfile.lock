@@ -225,7 +225,7 @@ GEM
     unicode-emoji (4.1.0)
     uri (1.1.1)
     webrick (1.9.2)
-    yard (0.9.37)
+    yard (0.9.38)
     yard-activesupport-concern (0.0.1)
       yard (>= 0.8)
     yard-solargraph (0.1.0)
@@ -257,7 +257,7 @@ DEPENDENCIES
   syntax_tree-rbs (= 1.0.0)
   tapioca (= 0.16.11)
   webrick (= 1.9.2)
-  yard (= 0.9.37)
+  yard (= 0.9.38)
 
 BUNDLED WITH
    2.4.19
