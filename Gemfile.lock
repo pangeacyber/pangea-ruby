@@ -76,7 +76,7 @@ GEM
     minitest (5.27.0)
     minitest-focus (1.4.0)
       minitest (>= 4, < 6)
-    minitest-hooks (1.5.2)
+    minitest-hooks (1.5.3)
       minitest (> 5.3)
     minitest-proveit (1.0.0)
       minitest (> 5, < 7)
@@ -242,7 +242,7 @@ DEPENDENCIES
   debug (= 1.11.0)
   minitest (= 5.27.0)
   minitest-focus (= 1.4.0)
-  minitest-hooks (= 1.5.2)
+  minitest-hooks (= 1.5.3)
   minitest-proveit (= 1.0.0)
   minitest-rg (= 5.3.0)
   pangea-sdk!
