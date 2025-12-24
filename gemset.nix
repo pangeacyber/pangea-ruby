@@ -462,12 +462,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "11jb31dl5kbpyl3kgxql0p7da9066r2aqw54y5q6cni9nmld3zf5";
+      sha256 = "1i1jdx6s8acrqss3c00gcpsl3jki1ij8qdgwpr31cvbyyhxxsl7g";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.5.2";
+    version = "1.5.3";
   };
   minitest-proveit = {
     dependencies = ["minitest"];
