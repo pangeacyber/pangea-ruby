@@ -152,12 +152,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1wmfy5n5v2rzpr5vz698sqfj1gl596bxrqw44sahq4x0rxjdn98l";
+      sha256 = "1djjx5332d1hdh9s782dyr0f9d4fr9rllzdcz2k0f8lz2730l2rf";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.11.0";
+    version = "1.11.1";
   };
   diff-lcs = {
     groups = ["default" "development"];
@@ -749,12 +749,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0lwzanb5psmrgpm80zdavr8sqvi7k4idsh4lakv790gbah659qbs";
+      sha256 = "1yc1xa3wckwwan518qii22jagqzlr5bypflx3nkvpdqr3ncd1qyz";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "7.0.1";
+    version = "7.0.3";
   };
   redcarpet = {
     groups = ["development" "docs"];
