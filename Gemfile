@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gemspec
 
 group :development do
-  gem "debug", "1.11.0"
+  gem "debug", "1.11.1"
   gem "rake", "13.3.0"
   gem "rubocop", "1.82.0"
   gem "ruby-lsp", "0.26.4"
