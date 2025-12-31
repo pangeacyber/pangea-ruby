@@ -488,12 +488,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0vwgmk9dnvhlcwxi7j5z150sdqyy3fjs8r8wzx64ig3ivpnb188j";
+      sha256 = "1yzgas6a42hc53zwk9bbq1wyy16p3ly6z1p5bcj82qw7rsw2pm2l";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "5.3.0";
+    version = "5.4.0";
   };
   mutex_m = {
     groups = ["default" "development"];
