@@ -19,7 +19,7 @@ end
 
 group :development, :test do
   gem "async", "2.35.0"
-  gem "minitest", "5.27.0"
+  gem "minitest", "6.0.1"
   gem "minitest-focus", "1.4.0"
   gem "minitest-hooks", "1.5.3"
   gem "minitest-proveit", "1.0.0"
