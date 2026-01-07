@@ -546,6 +546,18 @@
     targets = [];
     version = "0.1.2";
   };
+  open3 = {
+    groups = ["default" "development"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0lirpxrqk2bw02m3p4g8r50h37qkr0ssmh9q2hh52qsj2chpsbcf";
+      target = "ruby";
+      type = "gem";
+    };
+    targets = [];
+    version = "0.2.1";
+  };
   ostruct = {
     groups = ["default" "development"];
     platforms = [];
@@ -736,12 +748,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "167jvna8rhmv336vbm21lv3qxzp5sfbvys7azkh9w7672c9mynz7";
+      sha256 = "1z26r1wynx540hlj37a497k7k70zld21idj60419y8igqv25v2mx";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "3.10.0";
+    version = "3.10.2";
   };
   rdoc = {
     dependencies = ["erb" "psych" "tsort"];
@@ -882,17 +894,17 @@
     version = "0.4.1";
   };
   solargraph = {
-    dependencies = ["backport" "benchmark" "diff-lcs" "jaro_winkler" "kramdown" "kramdown-parser-gfm" "logger" "observer" "ostruct" "parser" "prism" "rbs" "reverse_markdown" "rubocop" "thor" "tilt" "yard" "yard-activesupport-concern" "yard-solargraph"];
+    dependencies = ["ast" "backport" "benchmark" "diff-lcs" "jaro_winkler" "kramdown" "kramdown-parser-gfm" "logger" "observer" "open3" "ostruct" "parser" "prism" "rbs" "reverse_markdown" "rubocop" "thor" "tilt" "yard" "yard-activesupport-concern" "yard-solargraph"];
     groups = ["development"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0k52l72bv513sgzpc88shh2xfcns3z7kv8m71r1n7fjajzna18w7";
+      sha256 = "045j0cm6q4i00sqds1dmc6a56yxznjm2r8jfi3ll3aw4xm051by3";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "0.57.0";
+    version = "0.58.0";
   };
   sorbet = {
     dependencies = ["sorbet-static"];
@@ -1053,12 +1065,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0gcarlmpfbmqnjvwfz44gdjhcmm634di7plcx2zdgwdhrhifhqw7";
+      sha256 = "0wsy88vg2mazl039392hqrcwvs5nb9kq8jhhrrclir2px1gybag3";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.4.0";
+    version = "1.5.0";
   };
   tilt = {
     groups = ["default" "development"];
