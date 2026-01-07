@@ -449,12 +449,12 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0v7z8xd5qgx3pb1047pml1si9y8awcm9yvxm5n94j1pynp94pw2c";
+      sha256 = "03l1vl873zpywjfj6sda9mx7f5b35cximi7zv29dkcnwwb5ifi9r";
       target = "ruby";
       type = "gem";
     };
     targets = [];
-    version = "1.4.0";
+    version = "1.4.1";
   };
   minitest-hooks = {
     dependencies = ["minitest"];
