@@ -22,7 +22,7 @@ group :development, :test do
   gem "minitest", "5.27.0"
   gem "minitest-focus", "1.4.1"
   gem "minitest-hooks", "1.5.3"
-  gem "minitest-proveit", "1.0.0"
+  gem "minitest-proveit", "1.0.1"
   gem "minitest-rg", "5.4.0"
 end
 
